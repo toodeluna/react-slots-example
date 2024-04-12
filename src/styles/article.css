@@ -1,0 +1,29 @@
+.article {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: white;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  padding: 20px;
+  width: 300px;
+}
+
+.article h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.article .tags {
+  display: flex;
+  gap: 4px;
+
+  span {
+    background-color: grey;
+    padding: 3px 6px;
+    color: white;
+    border-radius: 6px;
+    font-size: 0.8rem;
+  }
+}
